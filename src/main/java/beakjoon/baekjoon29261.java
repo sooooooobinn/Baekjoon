@@ -1,10 +1,13 @@
+package beakjoon;
+
 import java.util.Scanner;
 
-public class baekjoon18108 {
+public class baekjoon29261 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int y = sc.nextInt();
-        System.out.println(y - 543);
+
+        int a = sc.nextInt();
+
+
     }
 }
-

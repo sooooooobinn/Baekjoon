@@ -1,3 +1,5 @@
+package beakjoon;
+
 public class beakjoon10172 {
     public static void main(String arg[]){
         System.out.println("|\\_/|");

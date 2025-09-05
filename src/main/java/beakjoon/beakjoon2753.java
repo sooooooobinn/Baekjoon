@@ -1,4 +1,5 @@
-import javax.swing.*;
+package beakjoon;
+
 import java.util.Scanner;
 
 public class beakjoon2753 {
