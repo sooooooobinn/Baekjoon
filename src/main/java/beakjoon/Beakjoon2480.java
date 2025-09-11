@@ -11,14 +11,23 @@ public class Beakjoon2480 {
         int sum = 0;
 
         if(a==b && a==c) {
-            sum = 1;
+            sum = 10000 + (1000*a);
         }
         else if(a==b || a==c || b==c) {
-
+            if(a==c){
+                sum = 1000 + (100*a);
+            }
+            else if(a==b){
+                sum = 1000 + (100*b);
+            }
+            else{
+                sum = 1000 + (100*c);
+            }
         }
         else{
             int num = a > b ? ((a > c) ? a : c) : ((b > c) ? b : c);
             sum = num * 100;
         }
+        System.out.println(sum);
     }
 }
