@@ -1,17 +1,19 @@
-package beakjoon;
+package baekjoon;
 
 import java.util.Scanner;
 
-public class beakjoon10950 {
+public class baekjoon10952 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int a = 0;
-        int b = 0;
+        int a;
+        int b;
 
-        for(int i = 0; i<n; i++){
+        while (true) {
             a = sc.nextInt();
             b = sc.nextInt();
+            if (a == 0 && b == 0) {
+                break;
+            }
             System.out.println(a + b);
         }
     }

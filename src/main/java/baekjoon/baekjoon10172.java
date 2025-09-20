@@ -1,6 +1,6 @@
-package beakjoon;
+package baekjoon;
 
-public class beakjoon10172 {
+public class baekjoon10172 {
     public static void main(String arg[]){
         System.out.println("|\\_/|");
         System.out.println("|q p|   /}");

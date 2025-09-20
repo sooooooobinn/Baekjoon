@@ -1,8 +1,8 @@
-package beakjoon;
+package baekjoon;
 
 import java.util.Scanner;
 
-public class beakjoon2753 {
+public class baekjoon2753 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
